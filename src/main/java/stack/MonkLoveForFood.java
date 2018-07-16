@@ -37,7 +37,7 @@ public class MonkLoveForFood {
 
     public static void main(String[] args)  {
 
-        Stack<Integer> stack = new Stack<>();
+        Stack<Integer> stack = new Stack<Integer>();
         Scanner scanner = new Scanner(System.in);
         int query = 0;
 
