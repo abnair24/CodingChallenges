@@ -1,4 +1,4 @@
-package programs;
+package interviewChallenges;
 
 public class KthLargestNumber {
 

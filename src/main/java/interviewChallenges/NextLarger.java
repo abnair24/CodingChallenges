@@ -1,6 +1,4 @@
-package programs;
-
-import java.util.Stack;
+package interviewChallenges;
 
 /*
 Write a solution with O(n) complexity, since this is what you would be asked to do during a real interview.

@@ -1,4 +1,4 @@
-package challenges;
+package interviewChallenges;
 
 
 import java.util.HashSet;
