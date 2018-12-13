@@ -1,4 +1,4 @@
-package interviewChallenges;
+package practice;
 
 /*
 ind the kth largest element in an unsorted array.

@@ -1,4 +1,4 @@
-package interviewChallenges;
+package practice;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

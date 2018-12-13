@@ -1,4 +1,4 @@
-package interviewChallenges;
+package practice;
 
 /*
 Write a solution with O(n) complexity, since this is what you would be asked to do during a real interview.

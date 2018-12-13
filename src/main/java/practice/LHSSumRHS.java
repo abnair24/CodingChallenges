@@ -1,4 +1,4 @@
-package interviewChallenges;
+package practice;
 
 
 /*

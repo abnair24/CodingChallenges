@@ -1,9 +1,8 @@
-package interviewChallenges;
+package practice;
 
 
 import java.util.HashSet;
 import java.util.Set;
-import java.util.Stack;
 
 /*
         # Given an array a that contains only numbers in the range from 1 to a.length,
