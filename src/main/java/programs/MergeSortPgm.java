@@ -8,7 +8,7 @@ public class MergeSortPgm {
  
     public static void main(String a[]){
          
-        int[] inputArr = {45,23,11,89,77,98,4,28,65,43};
+        int[] inputArr = {38,27,48,3,19,82,10};
         MergeSortPgm mms = new MergeSortPgm();
         mms.sort(inputArr);
         for(int i:inputArr){
@@ -25,33 +25,32 @@ public class MergeSortPgm {
     }
  
     private void doMergeSort(int lowerIndex, int higherIndex) {
-         System.out.println("higherindex:"+higherIndex+" "+"lowerindex:"+lowerIndex);
+        System.out.println("Main :" + lowerIndex + " : "+ higherIndex);
         if (lowerIndex < higherIndex) {
         	
             int middle = lowerIndex + (higherIndex - lowerIndex) / 2;
             
             System.out.println("\n");
             
-            System.out.println("middle:"+middle);
+            System.out.println("left merge : "+lowerIndex+" : "+ middle);
             
             // Below step sorts the left side of the array
             doMergeSort(lowerIndex, middle);
             
             // Below step sorts the right side of the array
           
-            System.out.println("right array");
+            System.out.println("right merge : "+(middle+1)+" : "+higherIndex);
             
             doMergeSort(middle + 1, higherIndex);
             // Now merge both sides
-            
+            System.out.println("merge :"+lowerIndex +" : "+middle +" : "+higherIndex);
             mergeParts(lowerIndex, middle, higherIndex);
         }
     }
  
     private void mergeParts(int lowerIndex, int middle, int higherIndex) {
     	System.out.println("\n");
-    	System.out.println("higherindex:"+higherIndex+" "+"lowerindex:"+lowerIndex+" "+"middle:"+middle);
- 
+
         for (int i = lowerIndex; i <= higherIndex; i++) {
             tempMergArr[i] = array[i];
         }
